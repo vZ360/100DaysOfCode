@@ -1,4 +1,4 @@
-Write a program that adds the digits in a 2 digit number.
+1.Write a program that adds the digits in a 2 digit number.
 e.g. if the input was 35, then the output should be 3 + 5 = 8
 
 
@@ -8,3 +8,17 @@ num1=int(two_digit_number[0])
 num2=int(two_digit_number[1])
 sum=num1+num2
 print(sum)
+
+
+2.Write a program that calculates the Body Mass Index (BMI) from a user's weight and height.
+
+
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+
+
+
+h1=float(height) #convert string datatype to float 
+w1=int(weight)   #convert string datatype to integer
+bmi=w1/(h1*h1)   # convert final BMI result to interger
+print(int(bmi))
